@@ -92,9 +92,11 @@
       </trans-unit>
       <trans-unit id="plural1" datatype="html">
         <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes ago}}</source>
+        <target>{VAR_PLURAL, plural, =0 {только что} =1 {минуту назад} other { минут назад}}</target>
       </trans-unit>
       <trans-unit id="plural2" datatype="html">
         <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {x id="INTERPOLATION" equiv-text="{{minutes}}" minutes ago by {VAR_SELECT, select, male {male} female {female} other {other} }} }</source>
+        <target>{VAR_PLURAL, plural, =0 {только что} =1 {минуту назад} other {x id="INTERPOLATION" equiv-text="{{минут}}" minutes ago by {VAR_SELECT, select, male {мужчина} female {женщина} other {ребенок} }} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
           <context context-type="linenumber">30</context>
