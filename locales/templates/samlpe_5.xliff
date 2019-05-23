@@ -16,6 +16,12 @@
 				<note priority="1" from="description">Кнопка в сайдбаре.</note>
 				<note priority="1" from="meaning">Название кнопки при нажатии на которую появляется вся информация по задачам курса. (Карточки с описанием задач).</note>
             </trans-unit>
+		<trans-unit id="Button_new">
+                <source xml:space="preserve">Новая кнопка</source>
+                <target state="needs-translation" xml:space="preserve"></target>
+				<note priority="1" from="description">Новый строка</note>
+				<note priority="1" from="meaning">Данная строка была добавлена в уже созданный проект.</note>
+            </trans-unit>
             <trans-unit id="Page">
                 <source xml:space="preserve">Вкладка "Все задачи"</source>
                 <target state="needs-translation" xml:space="preserve"></target>
